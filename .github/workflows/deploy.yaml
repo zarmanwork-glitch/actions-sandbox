@@ -19,7 +19,7 @@ jobs:
           name: dist
           path: dist
 
-   deploy:
+  deploy:
     runs-on: ubuntu-latest
     needs: build
     steps:
