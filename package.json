@@ -10,8 +10,7 @@
     "dev": "bun run --watch src/index.ts",
     "test": "bun test",
     "lint": "bunx eslint src/",
-    "build": "bun build ./src/index.ts --outdir dist"
-  },
+    "build": "bun build ./src/index.html ./src/error.html --outdir dist"  },
   "dependencies": {},
   "devDependencies": {
     "@types/bun": "latest",
